@@ -1,0 +1,14 @@
+<suite name="OrangeHRM Test Cases Suite">
+<test name="Admin Login Test">
+<parameter name="uname" value ="Admin"/>
+<parameter name="upswd" value ="Qedge123!@#"/>
+<parameter name="uname" value ="Admin"/>
+<parameter name="upswd" value ="Qedge123!@#"/>
+<parameter name="firstname" value ="Jineeth"/>
+<parameter name="lastname" value ="HITMAN"/>
+	<classes>
+	    <class name="OrangeHRMTestcases.AdminLoginTestCase"></class>
+		<class name="OrangeHRMTestcases.AddEmpTestCase"/>
+	</classes>
+</test>
+</suite>
