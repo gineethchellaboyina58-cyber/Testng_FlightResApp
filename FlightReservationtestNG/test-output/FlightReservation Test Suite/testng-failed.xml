@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlightReservation Test Suite]">
+  <test thread-count="5" name="FlightReservation Test cases5(failed)">
+    <parameter name="email2" value="gin66655@gamil.com"/>
+    <parameter name="password" value="Jin@6665"/>
+    <parameter name="oldpswd" value="Jin@6665"/>
+    <parameter name="newpswd" value="Jin@6665"/>
+    <parameter name="password2" value="Jin@6665"/>
+    <parameter name="email" value="gin66655@gamil.com"/>
+    <parameter name="cofpswd" value="Jin@6665"/>
+    <classes>
+      <class name="FlightReservationTestCases.ChangepasswordTestCase">
+        <methods>
+          <include name="CloseBswr"/>
+          <include name="OpenBswr"/>
+          <include name="Changepasswordtest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- FlightReservationTestCases.ChangepasswordTestCase -->
+    </classes>
+  </test> <!-- FlightReservation Test cases5(failed) -->
+</suite> <!-- Failed suite [FlightReservation Test Suite] -->

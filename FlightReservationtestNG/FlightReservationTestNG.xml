@@ -1,0 +1,87 @@
+<suite name="FlightReservation Test Suite">
+ 
+
+	<test name="FlightReservation Test cases">
+		<parameter name="name" value="JasveerYadhav"></parameter>
+	    <parameter name="contact" value="9133630501"></parameter>
+		<parameter name="email" value="gin66655@gamil.com"></parameter>
+		<parameter name="password" value="Jin@6666"></parameter>
+		<parameter name="gender" value="Male"></parameter>
+		<parameter name="date" value="17-10-2000"></parameter>
+			<classes>
+			  <class name="FlightReservationTestCases.UserRegistrationTestCase"></class>
+			</classes>
+
+     </test>
+ 
+
+     
+     <test name="FlightReservation Test cases2">
+		
+		<parameter name="email" value="gin66655@gamil.com"></parameter>
+		<parameter name="password" value="Jin@6665"></parameter>
+		
+			<classes>
+			  <class name="FlightReservationTestCases.ResterUserTestCase"></class>
+			</classes>
+
+     </test>
+ 
+  <!--  
+  
+      <test name="FlightReservation Test cases3">
+		
+		<parameter name="email" value="jin6665@gamil.com"></parameter>
+		<parameter name="password" value="Gin@6665"></parameter>
+		<parameter name="date" value="20-October-2027"></parameter>
+		<parameter name="flyfrom" value="Hyderabad"></parameter>
+		<parameter name="flyto" value="Kolkatha"></parameter>
+		<parameter name="flightname" value="King Fisher Airlines"></parameter>
+		<parameter name="DepTime" value="12:30pm"></parameter>
+		<parameter name="person_name" value="sairamana"></parameter>
+		<parameter name="class_val" value="first class"></parameter>
+		
+		
+			<classes>
+			  <class name="FlightReservationTestCases.FlightBookingTestCase"></class>
+			</classes>
+
+     </test>
+
+
+  
+      <test name="FlightReservation Test cases4">
+		
+		<parameter name="email" value="jin6665@gamil.com"></parameter>
+		<parameter name="password" value="Gin@6665"></parameter>
+		<parameter name="orderID" value="14744"></parameter>
+		
+		<classes>
+		<class name="FlightReservationTestCases.FlightTicketDeleteTestCase"></class>
+		</classes>
+		
+      </test>
+
+ 
+      <test name="FlightReservation Test cases5">
+		
+			<parameter name="email" value="gin66655@gamil.com"></parameter>
+			<parameter name="password" value="Jin@6665"></parameter>
+			<parameter name="oldpswd" value="Jin@6665"></parameter>
+			
+			<parameter name="newpswd" value="Jin@6665"></parameter>
+			<parameter name="cofpswd" value="Jin@6665"></parameter>
+			
+			<parameter name="email2" value="gin66655@gamil.com"></parameter>
+			<parameter name="password2" value="Jin@6665"></parameter>
+			
+		
+				<classes>
+				<class name="FlightReservationTestCases.ChangepasswordTestCase"></class>
+				</classes>
+		
+      </test>
+     
+   -->
+
+</suite>
